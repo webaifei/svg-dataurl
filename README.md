@@ -1,16 +1,16 @@
-# svg-converter
+# svg-dataurl
 Convert SVG to SVG/PNG/JPEG DataURL.
 
 ## Install
 
 ```console
-$ npm install svg-converter
+$ npm install svg-dataurl
 ```
 
 ## Usage
 
 ```javascript
-import {SvgConverter} from 'svg-converter'
+import {SvgConverter} from 'svg-dataurl'
 
 const svg = documentGetElementById('chart')
 const downloadLink = documentGetElementById('#download-link')
