@@ -1,5 +1,5 @@
 {
-  "name": "svg-dataurl",
+  "name": "svg2dataurl",
   "version": "1.0.0",
   "description": "Convert SVG to SVG/PNG/JPEG DataURL",
   "main": "index.js",
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/likr/svg-dataurl.git"
+    "url": ""
   },
   "keywords": [],
-  "author": "Yosuke Onoue <onoue@likr-lab.com>",
+  "author": "webaifei@gmail.com",
   "license": "MIT"
 }
