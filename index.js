@@ -58,7 +58,7 @@ export default class SVGConverter {
   }
   static getOuterHTML(node) {
     function getOuterHTMLPollyfill(node) {
-      const container = document.createElementNS("http://www.w3.org/1999/xhtml", "_");
+      let container = document.createElementNS("http://www.w3.org/1999/xhtml", "_");
       container.appendChild(node.cloneNode(false));
       const html = container.innerHTML.replace("><", ">" + node.innerHTML + "<");
       container = null;
