@@ -1,4 +1,4 @@
-# svg-dataurl
+# svg2dataurl
 Convert SVG to SVG/PNG/JPEG DataURL. Just forked from [likr/svg-dataurl](https://github.com/likr/svg-dataurl) and then do some modifications.
 1. Instead of commonsjs  module ,use es6 module.
 2. Fix some issues.
